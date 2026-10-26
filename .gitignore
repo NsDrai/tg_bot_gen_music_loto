@@ -1,0 +1,28 @@
+# Окружение
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Шрифты, добавленные вручную (не коммитим лицензионные файлы)
+assets/fonts/*.ttf
+assets/fonts/*.otf
+assets/fonts/*.ttc
+
+# Результаты локальных генераций
+out/
+*.png
+!assets/**/*.png
+
+# Сборка exe
+build/
+dist/
+*.spec
+token.txt
+
+# Логи
+*.log
